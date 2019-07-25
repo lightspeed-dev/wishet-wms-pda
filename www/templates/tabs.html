@@ -1,0 +1,19 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top  tabs-positive">
+  <ion-tab title="任务" class="localicon" icon-on="icon-shouye" icon-off="icon-shouye" ui-sref="tab.home">
+    <ion-nav-view animation="slide-left-right" name="tab-home"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="工作" class="localicon" icon-on="icon-tixing" icon-off="icon-tixing" ui-sref="tab.notice">
+    <ion-nav-view animation="slide-left-right" name="tab-notice"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="报表" class="iconfont" icon-on="icon-shouye8" icon-off="icon-shouye8" ui-sref="tab.dynamic">
+    <ion-nav-view animation="slide-left-right" name="tab-dynamic"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="我的" class="localicon" icon-on="icon-shouye1" icon-off="icon-shouye1" ui-sref="tab.account">
+    <ion-nav-view animation="slide-left-right" name="tab-account"></ion-nav-view>
+  </ion-tab>
+</ion-tabs>
