@@ -1,0 +1,38 @@
+<ion-view view-title="Dashboard">
+  <ion-header-bar class="bar-positive">
+    <button class="button button-clear button-white iconfont icon-fanhui" ui-sref="cljh">
+      <i class="icon ion-ios-arrow-left"></i>返回
+    </button>
+    <h1 class="title">关联容器</h1>
+    <button class="button button-clear">1/4</button>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list">
+      <div class="item">
+        拣选单号
+        <span class="item-note positive">P2017052230906</span>
+      </div>
+    </div>
+
+    <div class="list">
+      <label class="item item-input item-icon-right">
+        <span class="input-label positive">容器1</span>
+        <input type="text" placeholder="扫码或输入容器号">
+        <i class="icon ion-qr-scanner"></i>
+      </label>
+<!---->
+      <label class="item item-input item-icon-right">
+        <span class="input-label positive">容器2</span>
+        <input type="text" placeholder="扫码或输入容器号">
+        <i class="icon ion-qr-scanner"></i>
+      </label>
+     </div>
+
+<!---->
+  </ion-content>
+  <ion-footer-bar class="">
+    <div class="button-bar">
+      <span class="button">清空</span>
+      <span class="button" ui-sref="jhqr">开始拣货</span>
+    </div>
+</ion-view>
